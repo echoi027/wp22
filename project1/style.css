@@ -1,0 +1,27 @@
+.tab-selected{ color:black;
+    font-size:14px;
+    font-family:'Courier New', Courier, monospace;
+    Padding: 12px;
+    background-color:azure;}
+.tab{color:white;
+    font-size:14px;
+    font-family:'Courier New', Courier, monospace;
+    Padding: 12px;
+    }
+.Pa1{font-size: 17px;}
+#contents{font-size: 17px;
+font-family: 'Courier New', Courier, monospace;}
+.border{border: 0.8px solid;
+color:white;
+margin-right: 1.5px;}
+.Box1{color:white;
+    font-size:17px;
+    Width:800px;
+    text-align: center;
+border:2.5px solid white;
+padding:10px;
+margin:5px;
+
+}
+#Categories{text-align:left;
+    font-size:17px;}
