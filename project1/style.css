@@ -14,14 +14,45 @@ font-family: 'Courier New', Courier, monospace;}
 .border{border: 0.8px solid;
 color:white;
 margin-right: 1.5px;}
+
 .Box1{color:white;
     font-size:17px;
-    Width:800px;
+    Width:600px;
     text-align: center;
 border:2.5px solid white;
+display: block;
 padding:10px;
-margin:5px;
+margin:auto;}
 
-}
 #Categories{text-align:left;
     font-size:17px;}
+
+.column {
+        float: left;
+        width: 50%;
+        padding: 0px;
+        height: max-content;
+
+        
+         }
+      
+      
+.row:after {
+        content: "";
+        display: table-cell;
+        clear: both;
+        padding:20px;
+      }
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  a {
+    background-color: gray;
+    transition: background-color 0.5s;
+  }
+  
+  a:hover {
+    background-color:palevioletred;
+  }
