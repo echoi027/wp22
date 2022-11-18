@@ -4,12 +4,25 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Web Programming | STUDENT NAME | Final Project</title>
+	
 </head>
 
 <body>
+	<button onclick="clearInterval(loop)">STOP</button>
+	<div id="container"></div>
 
-	<!-- Put your code here! -->
+	<script>
+	let container = document.querySelector(".container");
+		let red=100;
+		let blue=100;
+		let green=100;
+		container.innerHTML += "<p style='color:rgb("+red+","+green+","+blue+")>hi!</p>";
+
+	let loop= restartsetInterval(function() {
+		container.innerHTML += "<p>hi</p>";},500)
+	</script>
 
 </body>
 
+</script>
 </html>

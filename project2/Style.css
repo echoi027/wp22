@@ -32,7 +32,9 @@ ul{ list-style-type: none;
  margin: 0px;
 padding: 0px;
 width: 200px;
-background-color: #FFFFFF;}
+background-color: #FFFFFF;
+z-index: 9;
+position: relative;}
 
 li a { display: block;
     color: #282828;
@@ -40,7 +42,7 @@ li a { display: block;
     text-decoration: none;
 font-size: 18px;}
 
-
+/* Change the link color on hover */
 li a:hover {
     background-color: #282828;
     color: white;
@@ -53,14 +55,16 @@ li a:hover {
 color:#282828
 }
 .container{
-    width: 800px;
+    width: 1500px;
     height:fit-content;
     display: flex;
     align-items:center;
     justify-content: center;
+    position: absolute;
+    top:0;
 }
 .swiper{
-    width: 700px;
+    width: 800px;
     height:fit-content;
     align-items: space-around;
     justify-content:space-around;
