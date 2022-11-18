@@ -4,12 +4,79 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Web Programming | STUDENT NAME | Project 2</title>
+
+	<link rel="stylesheet" href="Style.css">
+	<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	
+	
 </head>
 
-<body>
 
-	<!-- Put your code here! -->
+<body>
+	<img src="/project2/RISD Museum Logo deisgn -02.png" alt="RISD logo">
+
+	<div class="logo">
+		<h1>RISD <br>MUSEUM</h1>
+		</div>
+		<br>
+<ul>
+	<li><a href="#exhibitions">EXHIBITIONS</a></li>
+	<li><a href="#engage">ENGAGE</a></li>
+	<li><a href="#learn">LEARN</a></li>
+	<li><a href="#support">SUPPORT</a></li>
+	<li><a href="#search">SEARCH</a></li>
+
+</ul>
+
+<div class="address"><p>20 North Main Street</p>
+	<p>Providence, RI</p>
+	<p>401 454 6500</p>
+</div>
+
+<div class="container">
+	<div class="swiper">
+		
+		<div class="swiper-wrapper">
+		  <!-- Slides -->
+		  <div class="swiper-slide"><img src="Main board_1-14.png"></div>
+		  <div class="swiper-slide"><img src="Main2-15.png"></div>
+		 
+		   
+		</div>
+		<!-- If we need pagination -->
+		<div class="swiper-pagination"></div>
+	  
+		<!-- If we need navigation buttons -->
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-button-next"></div>
+	  
+		
+	  </div>
+</div>
+
+	
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script> swiper = new Swiper('.swiper',{
+	
+	loop: true,
+  
+	pagination: {
+	  el: '.swiper-pagination',
+	  clickable: true,
+	},
+
+	navigation: {
+	  nextEl: '.swiper-button-next',
+	  prevEl: '.swiper-button-prev',
+	},
+  });
+  </script>
 
 </body>
+
 
 </html>

@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'AktivGrotesk-Light';
+    src: url(fonts/TTF/AktivGrotesk-Light.ttf);
+} 
+@font-face {
+    font-family: 'AktivGrotesk-Bold';
+    src: url(fonts/TTF/AktivGrotesk-Bold.ttf);
+    }
+@font-face {
+    font-family: 'AktivGrotesk-Medium';
+    src: url(fonts/TTF/AktivGrotesk-Medium.ttf);
+    }
+@font-face {
+    font-family: 'AktivGrotesk-Regular';
+    src: url(fonts/TTF/AktivGrotesk-Regular.ttf);
+}
+body{
+    background-color: white;
+    color:black;
+    
+}
+*{font-family: 'AktivGrotesk-Regular';}
+img{float:left;
+    width:90px;
+    height:112px;}
+    
+.logo{font-family:'AktivGrotesk-Medium';
+     padding-top: 1px;
+    color:#000}
+    
+ul{ list-style-type: none;
+ margin: 0px;
+padding: 0px;
+width: 200px;
+background-color: #FFFFFF;}
+
+li a { display: block;
+    color: #282828;
+    padding: 25px 20px;
+    text-decoration: none;
+font-size: 18px;}
+
+
+li a:hover {
+    background-color: #282828;
+    color: white;
+  }
+
+.address{position:fixed;
+    text-align: left;
+    padding:25px;
+    bottom: 8px;
+color:#282828
+}
+.container{
+    width: 800px;
+    height:fit-content;
+    display: flex;
+    align-items:initial;
+    justify-content: center;
+}
+.swiper{
+    width: 700px;
+    height:fit-content;
+    align-items: space-around;
+    justify-content:space-around;
+
+}
+.swiper-slide img{
+    width:800px; 
+    height: fit-content;
+
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color:#282828;
+}
