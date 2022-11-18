@@ -56,7 +56,7 @@ color:#282828
     width: 800px;
     height:fit-content;
     display: flex;
-    align-items:initial;
+    align-items:center;
     justify-content: center;
 }
 .swiper{
