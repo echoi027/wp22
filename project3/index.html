@@ -4,22 +4,38 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Web Programming | STUDENT NAME | Final Project</title>
+
+	<link rel="stylesheet" href="style.css">
+
 	
 </head>
 
+
 <body>
-	<button onclick="clearInterval(loop)">STOP</button>
-	<div id="container"></div>
+		
+	<h1>Kentaro Sakaguch fan gallery</h1>
+<ul>
+	<li>Home</li>
+	<li>Upcoming Event</li>
+	<li>His filmography</li>
+</ul>
+
+<img class="head-pic" src="kentaro-Sakaguchi.webp" alt="sakaguchi">
+<br>
+<h2>Kentaro Sakaguchi<br>坂口健太郎</h2>
+<p>A japanese actor and fashion model</p>
+<br>
+<p>He debuted as a model in Men's Non-no magazine in 2010, and as an actor under Tristone Entertainment in 2014.
+<br>He has since starred in television series Tokyo Tarareba Musume (2017) and Signal (2018), as well as films The 100th Love with You (2017) and Color Me True (2018).</p>
+	  
+<img class="middle-pic" src="2.jpg" alt="kentaro2"> 
+<img class="pic" src="3.jpg" alt="kentaro3">
+<img class="fourthpic" src="4.jpg" alt="kentaro4">
+<br>
+
+<p class="button">View more..</p>
 
 	<script>
-	let container = document.querySelector(".container");
-		let red=100;
-		let blue=100;
-		let green=100;
-		container.innerHTML += "<p style='color:rgb("+red+","+green+","+blue+")>hi!</p>";
-
-	let loop= restartsetInterval(function() {
-		container.innerHTML += "<p>hi</p>";},500)
 	</script>
 
 </body>

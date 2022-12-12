@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'AktivGrotesk-Light';
+    src: url(fonts/TTF/AktivGrotesk-Light.ttf);
+} 
+@font-face {
+    font-family: 'AktivGrotesk-Bold';
+    src: url(fonts/TTF/AktivGrotesk-Bold.ttf);
+    }
+@font-face {
+    font-family: 'AktivGrotesk-Medium';
+    src: url(fonts/TTF/AktivGrotesk-Medium.ttf);
+    }
+@font-face {
+    font-family: 'AktivGrotesk-Regular';
+    src: url(fonts/TTF/AktivGrotesk-Regular.ttf);
+}
+body{
+    background-color: black;
+    color:white;
+    
+}
+*{font-family: 'AktivGrotesk-Regular';}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 ;
+    overflow:hidden;
+    color:black;
+    background-color: white;
+ }
+  
+li {
+    float:left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ li:hover {
+    background-color: #4B8B3B;}
+
+.head-pic{width:700px;
+    height: fit-content;
+    padding:40px 500px;}
+h2 {text-align: center;}
+ p{text-align:center;}
+ .middle-pic{width:500px;
+height:fit-content;
+padding: 20px 20px;}
+
+.pic{width:650px; 
+height:fit-content;
+padding:5px 25px;}
+
+.fourthpic{ width:300px;
+height:fit-content;
+padding:5px 20px;}
+
+.button{font-family:'AktivGrotesk-Bold';
+background-color: #4B8B3B;
+border:none;
+display:flex;
+padding: 20px 32px;
+text-align: center;
+justify-content: center;
+align-items: center;}
